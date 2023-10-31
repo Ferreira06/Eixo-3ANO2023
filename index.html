@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Jogos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1C2362;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #1C2362;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hub de Jogos</h1>
+    <div class="button-container">
+        <a href="JogodaForca/index.html" class="button">
+            <img src="img/hangman.svg" alt="Ícone 1">
+        </a>
+        <a href="JogodaMemoria/index.html" class="button">
+            <img src="img/jogo-da-memoria.png" alt="Ícone 2">
+        </a>
+        <a href="JogodaVelha/index.html" class="button">
+            <img src="img/tictactoe.svg" alt="Ícone 3">
+        </a>
+    </div>
+</body>
+</html>
